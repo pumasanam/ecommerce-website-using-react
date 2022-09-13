@@ -1,0 +1,103 @@
+
+.products{
+    width: 100%;
+    padding:4rem 5rem!important;
+    text-align: center;
+    background-color: #fff;
+
+     .products_list{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            .product_storage{
+                width: 300px!important;
+                margin-bottom: 30px;
+                cursor: pointer;
+                text-align: left;
+                border: 1px solid lightgray;
+                transition: 0.3s ease;
+   
+   
+                &:hover{
+                   transform: translateY(-10px);
+                }
+   
+                .product_storage_list{
+                   padding:  10px;
+   
+                    h5{
+                       color: #7f8c8d;
+                       text-decoration: none!important;
+                   }
+   
+                    h6{
+                       color: #2c3e50;
+                       font-size: 1.1rem;
+                   }
+   
+                    .stars .fa{
+                       color: gold;
+                        margin-right: 3px;
+                   }
+                }
+   
+               
+            }
+    }
+}
+
+// .products{
+//     width: 100%;
+//     padding:4rem 5rem!important;
+//     text-align: center;
+//     background-color: #fff;
+
+
+
+//         .products_list{
+//             width: 100%;
+//             display: flex;
+//             justify-content: space-between;
+//             align-items: flex-start;
+//             flex-wrap: wrap;
+//         }
+
+//         .product_storage{
+//             width: 300px!important;
+//             margin-bottom: 30px;
+//             cursor: pointer;
+//             text-align: left;
+//             border: 1px solid lightgray;
+//             transition: 0.3s ease;
+//
+//         }
+
+//         .product_storage:hover{
+//             transform: translateY(-10px);
+//         }
+
+//         .product_storage .product_storage_list{
+//             padding:  10px;
+//         }
+
+//         .product_storage .product_storage_list h5{
+//             color: #7f8c8d;
+//             text-decoration: none!important;
+            
+//         }
+
+//         .product_storage .product_storage_list h6{
+//             color: #2c3e50;
+//             font-size: 1.1rem;
+//         }
+
+//         .product_storage .product_storage_list .stars .fa{
+//             color: gold;
+//             margin-right: 3px;
+//         }
+
+
+// }
